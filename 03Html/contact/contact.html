@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +8,50 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to contact page</h1>
-    <h3>You can reach us using this form.</h3>
+    <h1>Welcome to Contact page</h1>
+    <h3>You can using this form</h3>
     <h3> <a href="../index.html">Home</a></h3>
+
     <div id="contact-form">
-        <form action="" method="POST">
+                
             <label for="fullname">Name</label>
+            <form action="" method="POST">
+            <input type="text" name="fullname" placeholder="Full Name">
+            
             <br>
-            <input type="text" 
-            name = "fullname" 
-            placeholder="Full name"
-            >
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" placeholder="email@example.com">
+            
             <br>
-            <label for ="Email">My Email</label>
+            <label for="Password">Password</label>
+            <input type="password" name="Password" placeholder="Password">
+            
             <br>
-            <input type="email" 
-            name = "Email" 
-            placeholder="email@example.com"
-            > 
-            <textarea name="details"
-            id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="" cols="30" rows="4"></textarea>
+            <br>
+
             <select name="language" id="" multiple>
-                <option value="cpp">C++</option>
-                <option value="Java">Java</option>
+                <option value="Cpp">C++</option>
+                <option value="Python">Python</option>
+                <option value="Golang">Golang</option>
                 <option value="Js">Javascript</option>
             </select>
-            <br>
-            <h1>Preferred social media</h1>
-            <input type="checkbox" name="Linkedin" id="">
-            <label for="Linkedin">Linkedin</label>
-            <br>
-            <input type="checkbox" name="Instagram" id="">
-            <label for="Instagram">Instagram</label>
-            <br>
+            
+
+            <h4>Social media you prefer.</h4>
             <input type="checkbox" name="Facebook" id="">
             <label for="Facebook">Facebook</label>
             <br>
+            <input type="checkbox" name="Google" id="">
+            <label for="Google">Google</label>
+            <br>
+            <input type="checkbox" name="Linkedin" id="">
+            <label for="Linkedin">Linkedin</label>
+            <br>
             <button type="submit">Submit</button>
-        </form>
+            </form>
     </div>
-</body>
+    
+    
+
 </html>
