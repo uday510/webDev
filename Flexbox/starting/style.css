@@ -1,0 +1,28 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background: #151718;
+}
+
+.bg{
+  height: 100vh;
+  width: 100%;
+}
+
+.form > * {
+  border: 0;
+  padding: 2px;
+  background: #fff;
+  line-height: 30px;
+  font-size: 20px;
+}
+.form input[type="submit"] {
+  background: #c1c1c1;
+  border: 2px;
+  
+}
+.bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
