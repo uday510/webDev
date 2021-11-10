@@ -23,11 +23,12 @@ html {
 }
 
 .one {
-  order: -2;
-}
-.two{
   order: -1;
 }
-.container div:nth-child(5){
+.two {
+  order: -2;
+}
+
+.container div:nth-child(5) {
   order: -3;
 }

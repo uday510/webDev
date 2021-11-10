@@ -80,6 +80,27 @@ footer p {
     font-family: "Montserrat";
     font-size: 18px;
     margin-top: 10px;
-    
+}
 
+@media screen and (max-width: 800px){
+    body{
+         background: orange;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    span{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 400px){
+    body {
+        background: crimson;
+    }
+     h1 {
+        font-size: 40px;
+    }
+    span{
+        font-size: 60px;
+    }
 }
